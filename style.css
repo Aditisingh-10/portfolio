@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(184, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+section{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    width: 70px;
+}
+nav ul{
+    display: flex;
+    list-style: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(47, 8, 243);
+    transition: all 0.5s;
+}
+nav div span:hover{
+    color: rgb(160, 34, 22);
+    transition: all 0.5s;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons span{
+    cursor: pointer;
+    padding: 5px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiletext{
+    flex: 1;
+}
+.profileimg{
+    flex: 1;
+}
+.profileimg img{
+    width: 50%;
+}
+
+section div h1 {
+ text-align: center;   
+color: rgb(65, 8, 60);
+}
+section div p {
+    padding: 5px 10px;
+    display: inline-block;
+    color: rgb(44, 137, 153);
+    border: 2px solid rgb(67, 10, 39);
+    border-radius: 15px;
+}
+section div img {
+    width: 70%;
+   
+}
